@@ -691,131 +691,133 @@
         </div>
     </section>
 
-    <!-- Contact Form Section -->
-    <section id="contact" class="contact-section">
-        <div class="container">
-            <div class="text-center mb-5">
-                <h2 class="section-title">Get In Touch</h2>
-                <p class="section-subtitle">
-                    Register your interest and be among the first to experience Rustomjee Sewri
-                </p>
+   <!-- Contact Form Section -->
+<section id="contact" class="contact-section">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">
+                Register your interest and be among the first to experience Rustomjee Sewri
+            </p>
+        </div>
+        
+        <div class="contact-container">
+            <div class="contact-form-wrapper">
+                <h3 class="mb-4">Enquiry Form</h3>
+                <form id="contactForm">
+                    <div class="form-row">
+                        <div class="form-col">
+                            <label class="form-label">First Name *</label>
+                            <input type="text" class="form-control" placeholder="Enter your first name" required>
+                        </div>
+                        <div class="form-col">
+                            <label class="form-label">Last Name *</label>
+                            <input type="text" class="form-control" placeholder="Enter your last name" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-col">
+                            <label class="form-label">Email Address *</label>
+                            <input type="email" class="form-control" placeholder="Enter your email" required>
+                        </div>
+                        <div class="form-col">
+                            <label class="form-label">Phone Number *</label>
+                            <input type="tel" class="form-control" placeholder="Enter your phone number" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-col">
+                        <label class="form-label">Apartment Preference *</label>
+                        <select class="form-control" required>
+                            <option value="" disabled selected>Select Apartment Type</option>
+                            <option value="2bhkr">2 BHK Regular (1250 sq. ft.)</option>
+                            <option value="2bhkl">2 BHK Large (1450 sq. ft.)</option>
+                            <option value="3bhkr">3 BHK Regular (1775 sq. ft.)</option>
+                            <option value="3bhkl">3 BHK Large (1900 sq. ft.)</option>
+                            <option value="3.5bhk">3.5 BHK (2150 sq. ft.)</option>
+                            <option value="4bhk">4 BHK (2450 sq. ft.)</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-col">
+                        <label class="form-label">Additional Requirements</label>
+                        <textarea class="form-control" rows="4" placeholder="Tell us about your specific requirements..."></textarea>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">
+                        <i class="fas fa-paper-plane me-2"></i>Submit Enquiry
+                    </button>
+                </form>
             </div>
             
-            <div class="contact-container">
-                <div class="contact-form-wrapper">
-                    <h3 class="mb-4" style="color: var(--primary-dark-gold);">Enquiry Form</h3>
-                    <form id="contactForm">
-                        <div class="row mb-3">
-                            <div class="col-md-6">
-                                <label class="form-label">First Name *</label>
-                                <input type="text" class="form-control" required>
-                            </div>
-                            <div class="col-md-6">
-                                <label class="form-label">Last Name *</label>
-                                <input type="text" class="form-control" required>
-                            </div>
-                        </div>
-                        
-                        <div class="row mb-3">
-                            <div class="col-md-6">
-                                <label class="form-label">Email Address *</label>
-                                <input type="email" class="form-control" required>
-                            </div>
-                            <div class="col-md-6">
-                                <label class="form-label">Phone Number *</label>
-                                <input type="tel" class="form-control" required>
-                            </div>
-                        </div>
-                        
-                        <div class="mb-3">
-                            <label class="form-label">Apartment Preference *</label>
-                            <select class="form-control" required>
-                                <option value="" disabled selected>Select Apartment Type</option>
-                                <option value="1bhk">1 BHK (625-650 sq. ft.)</option>
-                                <option value="2bhk">2 BHK (1250-1350 sq. ft.)</option>
-                                <option value="3bhkr">3 BHK Regular (1775 sq. ft.)</option>
-                                <option value="3bhkl">3 BHK Large (1900 sq. ft.)</option>
-                                <option value="4bhk">4 BHK (2450 sq. ft.)</option>
-                            </select>
-                        </div>
-                        
-                        <div class="mb-4">
-                            <label class="form-label">Additional Requirements</label>
-                            <textarea class="form-control" rows="5" placeholder="Tell us about your specific requirements..."></textarea>
-                        </div>
-                        
-                        <div class="d-grid">
-                            <button type="submit" class="btn btn-lg" style="background: var(--gradient-primary); color: white; border: none;">
-                                <i class="fas fa-paper-plane me-2"></i>Submit Enquiry
-                            </button>
-                        </div>
-                    </form>
+            <div class="contact-info-wrapper">
+                <h3 class="mb-4">Contact Information</h3>
+                
+                <div class="contact-info-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="contact-info-content">
+                        <h5>Project Location</h5>
+                        <p>Sewri, Mumbai 400015, Maharashtra, India</p>
+                    </div>
                 </div>
                 
-                <div class="contact-info-wrapper">
-                    <h3 class="mb-4" style="color: var(--primary-dark-gold);">Contact Information</h3>
-                    
-                    <div class="contact-info-item">
-                        <div class="contact-icon">
-                            <i class="fas fa-map-marker-alt"></i>
-                        </div>
-                        <div>
-                            <h5 class="mb-1">Project Location</h5>
-                            <p class="mb-0">Sewri, Mumbai 400015</p>
-                        </div>
+                <div class="contact-info-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
                     </div>
-                    
-                    <div class="contact-info-item">
-                        <div class="contact-icon">
-                            <i class="fas fa-envelope"></i>
-                        </div>
-                        <div>
-                            <h5 class="mb-1">Email Address</h5>
-                            <p class="mb-0">info@luxuryhomecollection.com</p>
-                        </div>
+                    <div class="contact-info-content">
+                        <h5>Phone Number</h5>
+                        <p>+91 22 1234 5678</p>
                     </div>
-                    
-                    <div class="contact-info-item">
-                        <div class="contact-icon">
-                            <i class="fas fa-globe"></i>
-                        </div>
-                        <div>
-                            <h5 class="mb-1">Website</h5>
-                            <p class="mb-0">www.luxuryhomecollection.com</p>
-                        </div>
+                </div>
+                
+                <div class="contact-info-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
                     </div>
-                    
-                    <div class="contact-info-item">
-                        <div class="contact-icon">
-                            <i class="fas fa-clock"></i>
-                        </div>
-                        <div>
-                            <h5 class="mb-1">Office Hours</h5>
-                            <p class="mb-0">10:00 AM - 7:00 PM (Mon-Sat)</p>
-                        </div>
+                    <div class="contact-info-content">
+                        <h5>Email Address</h5>
+                        <p>info@rustomjeesewri.com</p>
                     </div>
-                    
-                    <div class="mt-5">
-                        <h5 class="mb-3">Connect With Us</h5>
-                        <div class="d-flex gap-3">
-                            <a href="#" class="btn" style="background: var(--gradient-primary); color: white; width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center;">
-                                <i class="fab fa-facebook-f"></i>
-                            </a>
-                            <a href="#" class="btn" style="background: var(--gradient-primary); color: white; width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center;">
-                                <i class="fab fa-instagram"></i>
-                            </a>
-                            <a href="#" class="btn" style="background: var(--gradient-primary); color: white; width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center;">
-                                <i class="fab fa-linkedin-in"></i>
-                            </a>
-                            <a href="#" class="btn" style="background: var(--gradient-primary); color: white; width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center;">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                        </div>
+                </div>
+                
+                <div class="contact-info-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <div class="contact-info-content">
+                        <h5>Office Hours</h5>
+                        <p>10:00 AM - 7:00 PM (Monday to Saturday)</p>
+                    </div>
+                </div>
+                
+                <div class="mt-4">
+                    <h5 class="mb-3">Connect With Us</h5>
+                    <div class="social-links">
+                        <a href="#" class="social-link" title="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-link" title="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-link" title="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="social-link" title="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link" title="YouTube">
+                            <i class="fab fa-youtube"></i>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
     <!-- Simple Footer with Only Copyright -->
     <footer class="footer">
